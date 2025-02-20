@@ -9,30 +9,30 @@
   <body>
     <header class="flex justify-center h-18 w-full bg-gray-950">
       <div class="flex justify-between items-center w-[1120px]">
-        <img class="w-30" src="../assets/logo.png" class="logo" />
-        <ul class="flex gap-6">
-          <li><a class="link text-white font-bold">Premium</a></li>
-          <li><a class="link text-white font-bold">Ajuda</a></li>
-          <li><a class="link text-white font-bold">Baixar</a></li>
+        <img class="w-30" src="../assets/logo.png">
+        <ul class="flex gap-6 ">
+          <li><a class="link text-white font-bold hover:text-green-500 cursor-pointer">Premium</a></li>
+          <li><a class="link text-white font-bold hover:text-green-500 cursor-pointer">Ajuda</a></li>
+          <li><a class="link text-white font-bold hover:text-green-500 cursor-pointer">Baixar</a></li>
           <li class="text-white font-bold">|</li>
-          <li><a class="link text-white font-bold">Inscrever-se</a></li>
-          <li><a class="link text-white font-bold">Entrar</a></li>
+          <li><a class="link text-white font-bold hover:text-green-500 cursor-pointer">Inscrever-se</a></li>
+          <li><a class="link text-white font-bold hover:text-green-500 cursor-pointer">Entrar</a></li>
         </ul>
       </div>
     </header>
     <div>
-      <div>
-        <h2>
-          Escute milhões de músicas e
-          <p>podcasts de graça</p>
+      <div class=" bg-[url(../assets/showcase.png)] h-[1000px] flex flex-col justify-center items-center bg-cover bg-center bg-no-repeat">
+        <h2 class="font-Helvetica text-[100px] text-white font-semibold">
+          Escute milhões de músicas
+          <p class="text-white flex items-center justify-center">e podcasts de graça</p>
         </h2>
-        <button>Inscreva-se grátis</button>
+        <button class=" border-white p-10 mt-[50px] bg-white cursor-pointer rounded-[100px] text-[30px] font-bold px-[70px] py-[25px] transition-transform duration-200 hover:scale-105">Inscreva-se grátis</button>
       </div>
     </div>
     <footer>
-      <div>
-        <h2>Por que escolher o Spotify?</h2>
-        <ul>
+      <div class="flex justify-center items-center flex-col h-[500px]">
+        <h2 class="font-semibold text-[70px]">Por que escolher o Spotify?</h2>
+        <ul class="flex flex-row justify-center items-center text-[40px] gap-10">
           <li>Ouça suas favoritas</li>
           <li>|</li>
           <li>Playlists de um jeito fácil</li>
@@ -43,70 +43,73 @@
         </ul>
       </div>
     </footer>
-    <footer>
-      <div>
+    <footer class="bg-green-400">
+      <div class="flex justify-center items-center h-[500px] text-[70px] font-bold">
         <h2>É gratis.Não precisa de cartão de crédito.</h2>
       </div>
     </footer>
-    <footer>
-      <div>
-        <img src="Nova pasta/logo.png" alt="" />
-        <ul>
-          <p>EMPRESA</p>
-          <li>Sobre</li>
-          <li>Empregos</li>
-          <li>For the record</li>
-        </ul>
-        <ul>
-          <p>COMUNIDADES</p>
-          <li>Para artistas</li>
-          <li>Desenvolvedores</li>
-          <br />
-          <li>Publicidade</li>
-          <li>Investidores</li>
-          <br />
-          <li>Fornecedores</li>
-        </ul>
-        <ul>
-          <p>LINKS ÚTEIS</p>
-          <li>Suporte</li>
-          <li>Player da Web</li>
-          <li>
-            Aplicativo Móvel<br />
-            grátis
-          </li>
-        </ul>
-        <ul>
-          <p>
-            PLANOS DO<br />
-            SPOTIFY
-          </p>
-          <li>Premium <br />Individual</li>
-          <li>Premium Duo</li>
-          <br />
-          <li>Premium Família</li>
-          <li>
-            Premium<br />
-            Universitário
-          </li>
-          <li>Spotify Free</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li>Legal</li>
-          <li>Segurança e Centro de privacidade</li>
-          <li>Política de privacidade</li>
-          <li>Cookies</li>
-          <li>Sobre anúncios</li>
-          <li>Acessibilidade</li>
-        </ul>
-      </div>
-      <div>
+    <footer class="bg-black text-white p-10">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-6">
         <div>
-          <p>Brasil (Português)</p>
+          <img src="../assets/logo.png" alt="" class="w-28">
         </div>
-        <p>&copy; 2025 Spotify AB</p>
+
+        <div>
+          <h3 class="text-gray-400 font-semibold uppercase text-sm">Empresa</h3>
+          <ul class="mt-2 space-y-2">
+            <li><a href="#" class="hover:text-green-400">Sobre</a></li>
+            <li><a href="#" class="hover:text-green-400">Empregos</a></li>
+            <li><a href="#" class="hover:text-green-400">For the Record</a></li>
+          </ul>
+        </div>
+    
+        <div>
+          <h3 class="text-gray-400 font-semibold uppercase text-sm">Comunidades</h3>
+          <ul class="mt-2 space-y-2">
+            <li><a href="#" class="hover:text-green-400">Para Artistas</a></li>
+            <li><a href="#" class="hover:text-green-400">Desenvolvedores</a></li>
+            <li><a href="#" class="hover:text-green-400">Publicidade</a></li>
+            <li><a href="#" class="hover:text-green-400">Investidores</a></li>
+            <li><a href="#" class="hover:text-green-400">Fornecedores</a></li>
+          </ul>
+        </div>
+    
+        <div>
+          <h3 class="text-gray-400 font-semibold uppercase text-sm">Links Úteis</h3>
+          <ul class="mt-2 space-y-2">
+            <li><a href="#" class="hover:text-green-400">Suporte</a></li>
+            <li><a href="#" class="hover:text-green-400">Player da Web</a></li>
+            <li><a href="#" class="hover:text-green-400">Aplicativo móvel grátis</a></li>
+          </ul>
+        </div>
+    
+        <div>
+          <h3 class="text-gray-400 font-semibold uppercase text-sm">Planos do Spotify</h3>
+          <ul class="mt-2 space-y-2">
+            <li><a href="#" class="hover:text-green-400">Premium Individual</a></li>
+            <li><a href="#" class="hover:text-green-400">Premium Duo</a></li>
+            <li><a href="#" class="hover:text-green-400">Premium Família</a></li>
+            <li><a href="#" class="hover:text-green-400">Premium Universitário</a></li>
+            <li><a href="#" class="hover:text-green-400">Spotify Free</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-6  border-gray-800 pt-4 text-gray-400 text-sm text-center md:text-left">
+        <div class="flex flex-wrap justify-center md:justify-between">
+          <div class="space-x-4">
+            <a href="#" class="hover:text-green-400">Legal</a>
+            <a href="#" class="hover:text-green-400">Segurança e Centro de Privacidade</a>
+            <a href="#" class="hover:text-green-400">Política de Privacidade</a>
+            <a href="#" class="hover:text-green-400">Cookies</a>
+            <a href="#" class="hover:text-green-400">Sobre anúncios</a>
+            <a href="#" class="hover:text-green-400">Acessibilidade</a>
+          </div>
+          <div class="mt-2 md:mt-0">
+            <p>Brasil(Português)</p>
+            <p>© 2025 Spotify AB</p>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
